@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Скачать файл — DownloadHub</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 24px; font-family: Arial, sans-serif; color: #eef2ff;
+      background: radial-gradient(circle at top, #23345d, #0b1020 65%);
+    }
+    .card {
+      width: min(100%, 520px); padding: 42px 30px; text-align: center;
+      background: rgba(20, 30, 55, .92); border: 1px solid #35466d;
+      border-radius: 22px; box-shadow: 0 20px 60px #0006;
+    }
+    .logo { font-size: 15px; color: #9fb5e8; letter-spacing: 2px; }
+    h1 { margin: 22px 0 12px; font-size: clamp(30px, 6vw, 42px); }
+    p { color: #bac7e2; line-height: 1.6; }
+    .file {
+      margin: 26px 0; padding: 15px; border-radius: 12px;
+      background: #111b32; color: #dbe7ff; overflow-wrap: anywhere;
+    }
+    a {
+      display: inline-block; padding: 15px 28px; border-radius: 12px;
+      background: #3478f6; color: white; font-weight: bold;
+      text-decoration: none; transition: .2s;
+    }
+    a:hover { background: #5590ff; transform: translateY(-2px); }
+    .hint { margin-top: 22px; font-size: 13px; color: #8798bb; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo">DOWNLOADHUB</div>
+    <h1>Скачивай легко!</h1>
+    <p>Нажми на кнопку ниже, чтобы скачать архив.</p>
+    <div class="file">zapret-discord-youtube-main(2).zip</div>
+    <a href="zapret-discord-youtube-main%282%29.zip" download>
+      ↓ Скачать ZIP-файл
+    </a>
+    <div class="hint">Формат: ZIP · Скачивание бесплатно</div>
+  </main>
+</body>
+</html>
